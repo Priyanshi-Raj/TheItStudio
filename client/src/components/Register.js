@@ -35,7 +35,7 @@ const Register = () => {
 
         const { name, email, work, hobbies, mobile, desc, age } = inpval;
 
-        const res = await fetch("https://crudappreactjs.herokuapp.com/register", {
+        const res = await fetch("https://localhost:8000/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
